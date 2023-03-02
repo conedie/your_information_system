@@ -11,12 +11,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './shared/header/header.component';
 import { CarrouselSingleComponent } from './components/carrousel-single/carrousel-single.component';
+import { InfoImgRightComponent } from './components/info-img-right/info-img-right.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    CarrouselSingleComponent
+    CarrouselSingleComponent,
+    InfoImgRightComponent
   ],
   imports: [
     BrowserModule,
