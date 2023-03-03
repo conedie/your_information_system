@@ -6,6 +6,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +16,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { CarrouselSingleComponent } from './components/carrousel-single/carrousel-single.component';
 import { InfoImgRightComponent } from './components/info-img-right/info-img-right.component';
 import { InfoImgLeftComponent } from './components/info-img-left/info-img-left.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,8 @@ import { InfoImgLeftComponent } from './components/info-img-left/info-img-left.c
     HeaderComponent,
     CarrouselSingleComponent,
     InfoImgRightComponent,
-    InfoImgLeftComponent
+    InfoImgLeftComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +37,10 @@ import { InfoImgLeftComponent } from './components/info-img-left/info-img-left.c
     MatButtonModule,
     MatSidenavModule,
     FlexLayoutModule,
-    MatCardModule
+    MatCardModule,
+    MatDividerModule,
+    MatListModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
