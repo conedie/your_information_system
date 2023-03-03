@@ -6,9 +6,28 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mt-5 {
   margin-top: 5px;
 }
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
 
 .mb-5 {
   margin-bottom: 5px;
+}
+
+.mb-5p {
+  margin-bottom: 5%;
 }
 
 .pb-5 {
@@ -34,8 +53,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   padding-top: 100px;
 }
 
-.ml-50 {
-  margin-left: 50px;
+.ml-5 {
+  margin-left: 5%;
+}
+.mr-5 {
+  margin-right: 5%;
 }
 
 .mr-50 {
