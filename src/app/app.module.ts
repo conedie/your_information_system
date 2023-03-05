@@ -18,6 +18,7 @@ import { InfoImgRightComponent } from './components/info-img-right/info-img-righ
 import { InfoImgLeftComponent } from './components/info-img-left/info-img-left.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CurrentClientsComponent } from './components/current-clients/current-clients.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CarrouselSingleComponent,
     InfoImgRightComponent,
     InfoImgLeftComponent,
-    FooterComponent
+    FooterComponent,
+    CurrentClientsComponent
   ],
   imports: [
     BrowserModule,
