@@ -1,0 +1,6 @@
+projectKey=YIS_yis
+serverUrl=http://sonarqube:9000
+serverVersion=8.9.10.61524
+dashboardUrl=http://sonarqube:9000/dashboard?id=YIS_yis
+ceTaskId=AYeb2Lujqs-2HQzNckRJ
+ceTaskUrl=http://sonarqube:9000/api/ce/task?id=AYeb2Lujqs-2HQzNckRJ
